@@ -1,32 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./styles.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
     <header>
-        <nav class="navbar">
-            <a href="#" class="nav-item">Home</a>
-            <a href="#about" class="nav-item">About</a>
-            <a href="#contact" class="nav-item">Contact</a>
-            <a href="#service" class="nav-item">Service</a>
-            <a href="blog" class="nav-item">Blog</a>
-        </nav>
-<!-- hero -->
+      <nav class="navbar">
+        <div class="logo">
+          <img src="https://csite.nicepage.com/Images/logo-w.png" alt="logo" />
+        </div>
 
-        <section class="hero">
-            <div class="hero-content">
-                <h4 class="hero-title">Add more speed to your website</h4>
-                <h1 class="hero-title">Your success in the industry is our mission</h1>
-                <p class="hero-text">Actually, this is quite simple to achieve – because each time we help them in sorting out different accounting intricacies or save the day before filing the taxes, they are happy indeed.</p>
-                <button class="btn">Read More</button>
-            </div>
-        </section>
+        <a href="#" class="nav-item">Home</a>
+        <a href="#about" class="nav-item">About</a>
+        <a href="#contact" class="nav-item">Contact</a>
+        <a href="#service" class="nav-item">Service</a>
+        <a href="blog" class="nav-item">Blog</a>
+      </nav> 
+      <!-- hero -->
+
+      <section class="hero">
+        <div class="hero-content">
+          <h4 class="hero-title">Add more speed to your website</h4>
+          <h1 class="hero-title">welcome to our website</h1>
+          <p class="hero-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+            voluptates
+          </p>
+          <button class="btn">Learn More</button>
+        </div>
+      </section> 
     </header>
+    <!-- main section -->
+    <main>
+      <!-- card section -->
+      <div class="about">
+      <section id="about" class="container">
+          <div class="card item-1">
+            <h2>2020</h2>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Lorem, ipsum dolor.</p>
+          </div>
+          <div class="card item-2">
+            <h2>2020</h2>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Lorem, ipsum dolor.</p>
+          </div>
+          <div class="card item-3">
+            <h2>2020</h2>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Lorem, ipsum dolor.</p>
+          </div>
+          <div class="card item-4">
+            <h2>2020</h2>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Lorem, ipsum dolor.</p>
+          </div>
+          <div class="card item-5">
+            <h2>2020</h2>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Lorem, ipsum dolor.</p>
+          </div>
+          <div class="card item-6">
+            <h2>2020</h2>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Lorem, ipsum dolor.</p>
+          </div>
+        </section>
+    </div> 
 
+      <!-- contact  -->
+      <section id="contact" class="contact">
+        <div class="text-section contact-item">
+          <h3>Explore national parks with digital tours, ranger programs, educational opportunities, and more.</h3>
+          <p>Lorem, ipsum dolor.</p>
+          <p>Lorem, ipsum dolor.</p>
+          <p>Lorem, ipsum dolor.</p>
+          <button class="btn"><strong>Book now</strong></button>
+
+           </div>
+        <div class="highlight-box contact-item">
+          <p>
+            Article evident arrived express highest men did boy. Mistress sensible entirely am so. Quick can manor smart money hopes worth too. Comfort produce husband boy her had hearing.
+          </p>
+          <p class="important">
+            Oh feel if up to till like. He an thing rapid these after going drawn or. Timed she his law the spoil round defer. In surprise concerns informed betrayed he learning is ye.
+          </p>
+
+        </div>
+      </section>
+      <div class="form-container">
+        <h1>Login</h1>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+            <label for="message">Message:</label>
+            <input type="message" id="message" name="message" placeholder="Enter your message" required>
+
+            <input type="submit" value="Submit">
+            <p>New User? <a href="#signup">Sign up here</a></p>
+        </form>
+    </div>
+    </main>
     <script src="./app.js"></script>
-</body>
+  </body>
 </html>
